@@ -14,7 +14,7 @@ var config = {
 	auth_url: 'https://auth.mercadolibre.com/authorization',
 	oauth_url: 'https://api.mercadolibre.com/oauth/token',
 	client_id :  process.env.App_ID,
-	secret_key : process.env.Secret_Key,
+	client_secret : process.env.Secret_Key,
 	redirect_uri : process.env.Redirect_URI,
 	site_id : 'MLA'
 };
